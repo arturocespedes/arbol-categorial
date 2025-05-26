@@ -1,0 +1,161 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#viewport {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+#zoom-wrapper {
+  width: max-content;
+  height: max-content;
+}
+
+
+#contenedor-mapa {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+#fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  z-index: 0;
+}
+
+#fondo, #botones, #conexiones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+.boton {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 6px 12px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.flujo   { background: #618db6; }
+.zona    { background: #3b8026; }
+.fase    { background: #cea315; }
+.impacto { background: #ad2816; }
+
+.boton:hover {
+  transform: scale(1.1) translate(-50%, -50%);
+}
+
+#conexiones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  z-index: 1;
+  pointer-events: none;
+
+}
+
+
+#botones {
+  z-index: 2;
+}
+
+.flujo {
+  display: flex;
+font-size: 18px;
+font-weight: bold;
+}
+
+.zona{
+  font-weight: bold;
+}
+
+#info-box {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#info-box h2 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#info-box p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#cerrar-info {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.oculto {
+  display: none;
+}
+
+#info-box.zona {
+  background-color: #2a591c; /* tono más oscuro del verde */
+}
+
+#info-box.flujo {
+  background-color: #3c658a; /* tono más oscuro del azul */
+}
+
+#info-box.fase {
+  background-color: #9f7d0f; /* tono más oscuro del amarillo/naranjo */
+}
+
+#info-box.impacto {
+  background-color: #741f15; /* tono más oscuro del rojo */
+}
+#info-box h3 {
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+#info-box p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #f0f0f0;
+}

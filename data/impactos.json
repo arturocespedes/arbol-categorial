@@ -1,0 +1,2031 @@
+{
+  "elements": [
+    {
+      "data": {
+        "id": "Desplazado",
+        "label": "Desplazado",
+        "tipo": "flujo",
+        "size": 30,
+        "descripcion": "Se refiere a impactos que provocan movilidad forzada o alteración de flujos territoriales, ya sea de personas, especies o cuerpos de agua. Implica migración, desplazamiento o modificación de cauces naturales. Ejemplos: pérdida de acceso a viviendas, desplazamiento de especies, desvío de cauces.",
+        "x": 429,
+        "y": 166
+      }
+    },
+    {
+      "data": {
+        "id": "Reducido",
+        "label": "Reducido",
+        "tipo": "flujo",
+        "size": 30,
+        "descripcion": "Corresponde a efectos relacionados con la disminución, deterioro o pérdida de recursos hídricos o ecosistémicos. Se asocia a la escasez de agua, privatización del acceso, degradación de suelos, pérdida de biodiversidad o disminución de servicios ecosistémicos. Ejemplos: reducción del caudal, pérdida de flora o fauna, suelos inutilizables.",
+        "x": 325,
+        "y": 583
+      }
+    },
+    {
+      "data": {
+        "id": "Enraizado",
+        "label": "Enraizado",
+        "tipo": "flujo",
+        "size": 30,
+        "descripcion": "Impactos que afectan estructuras de interdependencia entre humanos y no-humanos. Incluye alteración de infraestructuras vivas, comunidades locales, redes hídricas e interacciones socioambientales. Ejemplos: afectación a prácticas culturales vinculadas al agua, infraestructura comunitaria degradada.",
+        "x": 786,
+        "y": 691
+      }
+    },
+    {
+      "data": {
+        "id": "Indómito",
+        "label": "Indómito",
+        "tipo": "flujo",
+        "size": 30,
+        "descripcion": "Agrupa impactos relacionados con resistencia o persistencia de elementos del ecosistema o la memoria territorial frente a procesos extractivos. No están completamente controlados por la intervención humana. Ejemplos: especies que sobreviven en zonas intervenidas, sitios con valor patrimonial que resisten modificación.",
+        "x": 992,
+        "y": 370
+      }
+    },
+    {
+      "data": {
+        "id": "Área Mina",
+        "label": "Área Mina",
+        "tipo": "zona",
+        "size": 20,
+        "descripcion": "Zona de extracción directa de mineral. Contiene los tajos, rampas, botaderos y otras instalaciones relacionadas a la operación minera principal.",
+        "x": 1190,
+        "y": 155
+      }
+    },
+    {
+      "data": {
+        "id": "Área El Mauro",
+        "label": "Área El Mauro",
+        "tipo": "zona",
+        "size": 20,
+        "descripcion": "Sector donde se emplaza el tranque de relaves. Es una zona de almacenamiento de residuos mineros líquidos y sólidos, con impactos asociados a su construcción, operación y seguridad.",
+        "x": 1438,
+        "y": 582
+      }
+    },
+    {
+      "data": {
+        "id": "Área Chacay",
+        "label": "Área Chacay",
+        "tipo": "zona",
+        "size": 20,
+        "descripcion": "Área de interfaz entre infraestructura minera y sectores agrícolas o rurales. Es una zona de paso o conexión crítica.",
+        "x": 1510,
+        "y": 300
+      }
+    },
+    {
+      "data": {
+        "id": "Área Punta Chungo",
+        "label": "Área Punta Chungo",
+        "tipo": "zona",
+        "size": 20,
+         "descripcion": "Zona costera e industrial, vinculada al puerto y la planta desalinizadora. Permite el embarque de concentrado y la captación de agua marina para procesos industriales.",
+        "x": 192,
+        "y": 870
+      }
+    },
+    {
+      "data": {
+        "id": "Estero Pupío",
+        "label": "Estero Pupío",
+        "tipo": "zona",
+        "size": 20,
+        "descripcion": "Cuerpo de agua y territorio asociado que es afectado por múltiples fases del proyecto. Es zona sensible en términos ecosistémicos e hidrológicos.",
+        "x": 584,
+        "y": 634
+      }
+    },
+    {
+      "data": {
+        "id": "2032 - 2050",
+        "label": "2032 - 2050",
+        "tipo": "fase",
+        "size": 12,
+        "descripcion": "Operación EVU (Extensión de Vida Útil): Fase donde la actividad productiva se estabiliza. Abarca la extracción, procesamiento, transporte y manejo continuo de residuos. Aquí ocurren los impactos sostenidos en el tiempo.",
+        "x": 458,
+        "y": 272
+      }
+    },
+    {
+      "data": {
+        "id": "2028 - 2031",
+        "label": "2028 - 2031",
+        "tipo": "fase",
+"descripcion": "Construcción EVU (Extensión de Vida Útil): Fase inicial del proyecto. Incluye obras civiles, remoción de suelo, instalación de infraestructura y movimiento de maquinaria. Los impactos suelen ser intensos, pero de duración limitada.",        "size": 12,
+        
+        "x": 910,
+        "y": 100
+      }
+    },
+    {
+      "data": {
+        "id": "2051-2051",
+        "label": "2051-2051",
+        "tipo": "fase",
+        "size": 12,
+        "descripcion": "Cierre EVU (Extensión de Vida Útil): Fase de término del proyecto. Contempla el sellado de instalaciones, revegetación, monitoreo post-cierre y abandono del sitio. Algunos impactos pueden persistir o cambiar su naturaleza.",
+        "x": 1089,
+        "y": 516
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de hábitat de guanacos (Lama guanicoe)",
+        "label": "Pérdida de hábitat de guanacos (Lama guanicoe)",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Disminución de poblaciones de guanacos y pérdida de conectividad ecológica en la cordillera.",
+        "x": 222,
+        "y": 659
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de reptiles y micromamíferos",
+        "label": "Pérdida de reptiles y micromamíferos",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Reducción en la biodiversidad local y debilitamiento de redes tróficas en áreas perturbadas.",
+        "x": 714,
+        "y": 759
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "Pérdida de hábitat de fauna de movilidad reducida",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Colapso progresivo de microhábitats críticos, afectando la resiliencia de especies endémicas.",
+        "x": 651,
+        "y": 390
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de individuos de anfibios",
+        "label": "Pérdida de individuos de anfibios",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Fragmentación de poblaciones anfibias con alta sensibilidad a cambios hídricos, riesgo de extinción local.",
+        "x": 827,
+        "y": 298
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Desaparición del cururo en sectores intervenidos, alteración de la dinámica subterránea del suelo.",
+        "x": 1029,
+        "y": 462
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "label": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Desertificación y pérdida irreversible de ecosistemas vegetales únicos.",
+        "x": 920,
+        "y": 577
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de flora vascular en conservación",
+        "label": "Pérdida de flora vascular en conservación",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Reducción de la diversidad genética vegetal, afectando futuras estrategias de restauración ecológica.",
+        "x": 625,
+        "y": 500
+      }
+    },
+    {
+      "data": {
+        "id": "Alteración del hábitat acuático del estero Pupío",
+        "label": "Alteración del hábitat acuático del estero Pupío",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Alteración permanente del equilibrio ecológico del estero, pérdida de especies acuáticas sensibles.",
+        "x": 201,
+        "y": 370
+      }
+    },
+    {
+      "data": {
+        "id": "Alteración de monumentos arqueológicos",
+        "label": "Alteración de monumentos arqueológicos",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Pérdida de valor cultural, educativo y patrimonial, desvinculación del territorio con sus memorias.",
+        "x": 929,
+        "y": 208
+      }
+    },
+    {
+      "data": {
+        "id": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "label": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Transformación permanente de los flujos hídricos, generando conflictos por escasez y usos múltiples.",
+        "x": 1139,
+        "y": 701
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de suelo arable",
+        "label": "Pérdida de suelo arable",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Reducción en la capacidad productiva local, aumento de la dependencia de alimentos externos.",
+        "x": 211,
+        "y": 223
+      }
+    },
+    {
+      "data": {
+        "id": "Restricción de acceso a viviendas e infraestructura",
+        "label": "Restricción de acceso a viviendas e infraestructura",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Aislamiento territorial de comunidades, deterioro de la calidad de vida y riesgo de migración forzada.",
+        "x": 228,
+        "y": 505
+      }
+    },
+    {
+      "data": {
+        "id": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "label": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "tipo": "impacto",
+        "size": 20,
+        "descripcion": "Desplazamiento de prácticas ganaderas tradicionales, pérdida de saberes locales y sistemas de sustento.",
+        "x": 540,
+        "y": 113
+      }
+    },
+    {
+      "data": {
+        "id": "e0",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de guanacos (Lama guanicoe)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e1",
+        "source": "Pérdida de hábitat de guanacos (Lama guanicoe)",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "Pérdida de hábitat de guanacos (Lama guanicoe)",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e6",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e7",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e8",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e9",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e13",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e24",
+        "source": "Reducido",
+        "target": "Pérdida de reptiles y micromamíferos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "Pérdida de reptiles y micromamíferos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e43",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "Desplazado",
+        "target": "Pérdida de hábitat de fauna de movilidad reducida",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "Pérdida de hábitat de fauna de movilidad reducida",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e51",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de anfibios",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de anfibios",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e55",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e56",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e57",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de anfibios",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e58",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e59",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e60",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de anfibios",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e61",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e62",
+        "source": "Pérdida de individuos de anfibios",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e63",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e64",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e65",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e66",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e67",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e68",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e69",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e70",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e71",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e72",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e73",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e74",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e75",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e76",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e77",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e78",
+        "source": "Reducido",
+        "target": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e79",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e80",
+        "source": "Pérdida de individuos de cururos (Spalacopus cyanus)",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e81",
+        "source": "Reducido",
+        "target": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e82",
+        "source": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e83",
+        "source": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e84",
+        "source": "Reducido",
+        "target": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e85",
+        "source": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e86",
+        "source": "Pérdida de bosques nativos singulares y formaciones xerofíticas",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e87",
+        "source": "Reducido",
+        "target": "Pérdida de flora vascular en conservación",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e88",
+        "source": "Pérdida de flora vascular en conservación",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e89",
+        "source": "Pérdida de flora vascular en conservación",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e90",
+        "source": "Reducido",
+        "target": "Pérdida de flora vascular en conservación",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e91",
+        "source": "Pérdida de flora vascular en conservación",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e92",
+        "source": "Pérdida de flora vascular en conservación",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e93",
+        "source": "Reducido",
+        "target": "Alteración del hábitat acuático del estero Pupío",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e94",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e95",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e96",
+        "source": "Desplazado",
+        "target": "Alteración del hábitat acuático del estero Pupío",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e97",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e98",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e99",
+        "source": "Reducido",
+        "target": "Alteración del hábitat acuático del estero Pupío",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e100",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e101",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "2051-2051",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e102",
+        "source": "Desplazado",
+        "target": "Alteración del hábitat acuático del estero Pupío",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e103",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e104",
+        "source": "Alteración del hábitat acuático del estero Pupío",
+        "target": "2051-2051",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e105",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e106",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e107",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e108",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e109",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e110",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e111",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e112",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e113",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e114",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e115",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e116",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e117",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e118",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e119",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e120",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e121",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e122",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e123",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e124",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e125",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e126",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e127",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e128",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e129",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e130",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e131",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e132",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e133",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e134",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e135",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e136",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e137",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e138",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e139",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Chacay",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e140",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e141",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e142",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e143",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e144",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e145",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e146",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e147",
+        "source": "Enraizado",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e148",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e149",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e150",
+        "source": "Indómito",
+        "target": "Alteración de monumentos arqueológicos",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e151",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e152",
+        "source": "Alteración de monumentos arqueológicos",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e153",
+        "source": "Reducido",
+        "target": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e154",
+        "source": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e155",
+        "source": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e156",
+        "source": "Reducido",
+        "target": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e157",
+        "source": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "target": "Estero Pupío",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e158",
+        "source": "Variación del caudal en el estero Pupío por expansión del tranque",
+        "target": "2051-2051",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e159",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e160",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e161",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e162",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e163",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e164",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e165",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e166",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e167",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e168",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e169",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Mina",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e170",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e171",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e172",
+        "source": "Pérdida de suelo arable",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e173",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e174",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e175",
+        "source": "Pérdida de suelo arable",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e176",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e177",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e178",
+        "source": "Pérdida de suelo arable",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e179",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e180",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e181",
+        "source": "Pérdida de suelo arable",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e182",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e183",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e184",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e185",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e186",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e187",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e188",
+        "source": "Pérdida de suelo arable",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e189",
+        "source": "Reducido",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e190",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e191",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e192",
+        "source": "Enraizado",
+        "target": "Pérdida de suelo arable",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e193",
+        "source": "Pérdida de suelo arable",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e194",
+        "source": "Pérdida de suelo arable",
+        "target": "2032 - 2050",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e195",
+        "source": "Desplazado",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e196",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e197",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e198",
+        "source": "Enraizado",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e199",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e200",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e201",
+        "source": "Indómito",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e202",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e203",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e204",
+        "source": "Desplazado",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e205",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e206",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e207",
+        "source": "Enraizado",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e208",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e209",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e210",
+        "source": "Indómito",
+        "target": "Restricción de acceso a viviendas e infraestructura",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e211",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e212",
+        "source": "Restricción de acceso a viviendas e infraestructura",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e213",
+        "source": "Enraizado",
+        "target": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e214",
+        "source": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "target": "Área El Mauro",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e215",
+        "source": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    },
+    {
+      "data": {
+        "id": "e216",
+        "source": "Enraizado",
+        "target": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "label": "genera"
+      }
+    },
+    {
+      "data": {
+        "id": "e217",
+        "source": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "target": "Área Punta Chungo",
+        "label": "ocurre en"
+      }
+    },
+    {
+      "data": {
+        "id": "e218",
+        "source": "Pérdida de ingresos ganaderos por restricción de acceso",
+        "target": "2028 - 2031",
+        "label": "durante"
+      }
+    }
+  ]
+}
